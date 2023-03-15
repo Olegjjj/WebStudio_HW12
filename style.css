@@ -80,10 +80,10 @@ body {
     padding-bottom: 16px;
 }
 
-.menu {
+ .menu {
     display: flex;
     justify-content: space-between;
-}
+} 
 
 @media screen and (min-width: 768px) {
     .page-header {
@@ -91,6 +91,12 @@ body {
         height: 80px;
         align-items: center;
         padding: 0;
+    }
+    .menu-nav {
+        
+    }
+    .header-contact {
+      padding-right: 15px;
     }
 }
   
@@ -276,15 +282,19 @@ body {
 
 /** ====================== особливості (feature) =============================== */
 
-.wrap-icon {
+/* .wrap-icon {
     background-color: #F5F4FA;
     border-radius: 4px;
-    text-align: center;
-  
-    padding-bottom: 25px;
-    padding-top: 25px;
-    margin-bottom: 30px;
-  }
+    width: 100%; */
+    /* padding-bottom: 25px; */
+    /* padding-top: 25px; */
+    /* margin-bottom: 30px; */
+  /* } */
+  /* .details {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  } */
   
   .feature-title {
     font-weight: 700;
@@ -381,6 +391,12 @@ body {
   
   .team-list {
     margin-bottom: 30px;
+  }
+  .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
   }
   
   .team-item {
@@ -503,8 +519,16 @@ body {
 .footer {
     display: flex;
     flex-direction: column;
-    margin-left: 215px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 215px; */
     color: rgba(255, 255, 255, 0.6);
+}
+.WebStudio_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 215px;
 }
 .place {
     font-weight: 400;

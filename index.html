@@ -10,6 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -50,18 +52,18 @@
 
     <main>
         <div>
-            <section class="hero">
+            <section class="hero section">
                 <h1 class="hero-title">Ефективні рішення для вашого бізнес</h1>
                 <button type="button" class="hero-button">Замовити послугу</button>
             </section>
 
             <section class="feature section">
                 <div class="container"></div>
-                <ul class="future-list">
+                <ul class="fture-list">
                     <li class="future-item">
                         <div class="wrap-icon">
                         <svg class="details">
-                            <use href="img/sprite.svg#icon-antenna" width="70px"  height="70px"></use>
+                            <use href="img/sprite.svg#icon-antenna" width="70"  height="70"></use>
                         </svg>
                         </div>
                         <h3 class="robota">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -71,8 +73,8 @@
                     </li>
                     <li>
                         <div class="wrap-icon">
-                        <svg class="details">
-                            <use href="img/sprite.svg#icon-clock" width="70px"  height="70px"></use>
+                        <svg class="details" width="70"  height="70">
+                            <use href="img/sprite.svg#icon-clock"></use>
                         </svg>
                         </div>
                         <h3 class="robota">ПУНКТУАЛЬНІСТЬ</h3>
@@ -82,8 +84,8 @@
                     </li>
                     <li>
                         <div class="wrap-icon">
-                        <svg class="details">
-                            <use href="img/sprite.svg#icon-diagram" width="70px"  height="70px"></use>
+                        <svg class="details" width="70"  height="70">
+                            <use href="img/sprite.svg#icon-diagram"></use>
                         </svg>
                         </div>
                         <h3 class="robota">ПЛАНУВАННЯ</h3>
@@ -93,8 +95,8 @@
                     </li>
                     <li>
                         <div class="wrap-icon">
-                        <svg class="details">
-                            <use href="img/sprite.svg#icon-astronaut" width="70px"  height="70px"></use>
+                        <svg class="details" width="70"  height="70">
+                            <use href="img/sprite.svg#icon-astronaut"></use>
                         </svg>
                     </div>
                         <h3 class="robota">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
@@ -105,7 +107,7 @@
                 </ul>
             </section>
 
-            <section class="section2 section-works">
+            <section class="section2 section-works section">
                 <div class="container">
                     <h3 class="work">Чим ми займаємося</h3>
                     <ul class="future work-list">
@@ -122,7 +124,7 @@
                 </div>
             </section>
 
-            <section class="section3">
+            <section class="section3 section">
                 <h3 class="team">Наша команда</h3>
                 <ul class="team-list">
                     <li class="team-item">
@@ -188,14 +190,16 @@
     </main>
 
     <footer>
+        <div class="container">
         <ul>
-            <li class="WebStudio"><a class="studio_footer" href="#"><span class="web">Web</span>Studio</a></li>
+            <li class="WebStudio WebStudio_footer"><a class="studio_footer" href="#"><span class="web">Web</span>Studio</a></li>
           </ul>
           <ul class="footer">
             <li class="place">м. Київ, пр-т Лесі Українки, 26</li>
             <li class="email1">info@example.com</li>
             <li class="number1">+38 099 111 11 11</li>
           </ul>
+        </div>
     </footer>
 
 </body>
