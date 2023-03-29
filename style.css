@@ -100,6 +100,10 @@ body {
         justify-content: space-between;
         align-items: center;
     }
+    .header-contact {
+      display: flex;
+      flex-direction: row;
+  }
 }
 
 .web {
@@ -116,12 +120,11 @@ body {
     color: #000;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .web {
         color: #000;
     }
 }
-
 .menu-open {
     border: none;
     background-color: transparent;
@@ -182,10 +185,10 @@ body {
         color: #2196F3;
     }
     
-    .header-contact {
+     .header-contact {
         display: flex;
         flex-direction: column;
-    }
+    } 
     
     .header-icon {
         fill: #757575;
@@ -270,8 +273,14 @@ body {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/desktop/background1200.jpg);
       height: 600px;
     }
-  
+    .header-contact {
+      display: flex;
+      flex-direction: row;
   }
+    .email_header {
+      padding-right: 30px;
+    }
+}
 
 /** ====================== особливості (feature) =============================== */
 
